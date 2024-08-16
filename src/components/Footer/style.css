@@ -1,0 +1,111 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+    background-color: var(--licorice);
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.footer .footer-content-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.footer .footer-content-links .social-media-links,
+.footer .footer-content-links .social-media-links a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .footer-content-links .social-media-links a {
+    gap: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .footer-content-links .social-media-links {
+    gap: 40px;
+}
+
+.footer hr {
+    opacity: .5;
+}
+
+.footer-content-child p:first-child {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-container a button {
+    padding: 14px 28px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.btn-container a button.primary-btn {
+    color: var(--licorice);
+    background-color: #fff;
+}
+
+.btn-container a button.secondary-btn {
+    background-color: transparent;
+}
+
+/* add responsiviness */
+
+@media screen and (max-width: 1340px) {
+    .footer-content {
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer .footer-content-links {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer .footer-content-links .social-media-links {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    .btn-container {
+        flex-direction: column;
+    }
+
+    .footer-content-child,
+    .btn-container a button {
+        width: 100%;
+    }
+}

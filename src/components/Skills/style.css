@@ -1,0 +1,39 @@
+/* styles for skills */
+.skills {
+    margin-top: 10%;
+    background-color: var(--licorice);
+    padding: 160px 180px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.skills-child {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.skills h1 {
+    color: var(--anti-flash-white);
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 1;
+    margin-right: 1px;
+    transform: rotate(-90deg);
+}
+
+.skills {
+    color: var(--anti-flash-white);
+}

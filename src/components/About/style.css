@@ -1,0 +1,82 @@
+/* styles for about me */
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.about-me-title {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 132px;
+    color: var(--amaranth);
+}
+
+.about-me p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    width: 80%;
+}
+
+.about-me .linkedin {
+    display: flex;
+    width: calc(80% - 48px);
+    background-color: var(--licorice);
+    margin-top: 50px;
+    border-radius: 33px;
+    padding: 20px 0 20px 48px;
+}
+
+.about-me a {
+    text-decoration: none;
+    color: var(--anti-flash-white);
+}
+
+.about-me-child .legend {
+    background-color: var(--amaranth);
+    color: var(--anti-flash-white);
+    margin-top: -20px;
+    z-index: 10;
+    padding: 36px 0 36px 40px;
+    border-radius: 0px 0px 0px 40px;
+}
+
+.about-me .contact {
+    z-index: 1;
+    background-color: #E5C8CB;
+    border-radius: 40px;
+}
+
+.about-me .legs-image {
+    z-index: 1;
+}
+
+.about-me span {
+    display: flex;
+    width: auto;
+    background-color: var(--licorice);
+    border-radius: 33px;
+    padding: 20px 48px;
+    position: absolute;
+}
+
+.span-1 {
+    top: 1379px;
+    /* left: 1048px; */
+    right: 36%;
+}
+
+.span-2 {
+    top: 1664px;
+    /* left: 1503px; */
+    right: 7%;
+}

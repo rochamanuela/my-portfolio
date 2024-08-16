@@ -1,0 +1,95 @@
+/* styles for education and activities */
+
+.education {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10%;
+    margin-top: 195px;
+    gap: 37px;
+}
+
+.education-content-child {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.education-content-child .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.education-content-child .item h2.year {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.education-content h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    margin-bottom: 40px;
+}
+
+.education-content {
+    padding: 90px 80px;
+}
+
+.education-child .filled {
+    background-color: var(--dark-purple);
+    color: var(--anti-flash-white);
+    border-radius: 40px 40px 0px 40px;
+}
+
+.education-child .outline {
+    background-color: none;
+    border: 2px solid var(--licorice);
+    border-radius: 0px 40px 40px 40px;
+}
+
+.tags-outline,
+.tags-filled {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tag {
+    padding: 10px 20px;
+    border-radius: 33px;
+}
+
+.tags-outline {
+    justify-content: flex-end;
+}
+
+.tags-outline .tag {
+    color: var(--dark-purple);
+    border: 2px solid var(--dark-purple);
+    font-weight: 500;
+    margin-top: 38px;
+}
+
+.tags-filled {
+    justify-content: flex-start;
+}
+
+.tags-filled .tag {
+    color: var(--anti-flash-white);
+    border: 2px solid var(--licorice);
+    background-color: var(--licorice);
+    font-weight: 500;
+    margin-bottom: 38px;
+}
+
+.education .last-child {
+    margin-top: 94px;
+}

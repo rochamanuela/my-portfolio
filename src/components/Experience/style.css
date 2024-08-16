@@ -1,0 +1,105 @@
+/* styles for experiences */
+
+.experience {
+    margin-top: 11%;
+}
+
+.experience .experience-section-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.experience .experience-section-title h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 108px;
+    color: var(--licorice);
+    padding-left: 20%;
+}
+
+.experience .experience-section-title .child {
+    width: 50%;
+}
+
+.experience .experience-section-title hr {
+    border: 3px solid var(--licorice);
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.experience section.experience-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience section.experience-content .text,
+.experience section.experience-content .mockup {
+    width: 50%;
+}
+
+.experience section.experience-content .mockup img {
+    width: 100%;
+    height: auto;
+    max-width: 950px;
+    z-index: 5;
+}
+
+.experience section.experience-content .text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: var(--licorice);
+}
+
+.experience section.experience-content .text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--licorice);
+    margin-bottom: 15px;
+}
+
+.amaranth-rectangle {
+    position: absolute;
+    z-index: -1;
+    width: 360px;
+    height: 645px;
+    right: 40px;
+    top: 480%;
+    background: linear-gradient(270deg, #CE4257 0%, #EDF2EF 100%);
+    border-radius: 40px;
+}
+
+.dark-purple-rectangle {
+    position: absolute;
+    z-index: -1;
+    width: 35%;
+    height: 25%;
+    left: 10%;
+    top: 457%;
+    background: linear-gradient(270deg, #EDF2EF 0%, #402039 100%);
+    border-radius: 40px;
+}
+
+.coral-rectangle {
+    position: absolute;
+    z-index: -1;
+    width: 40%;
+    height: 32%;
+    right: 0;
+    top: 390%;
+    background: linear-gradient(180deg, #FF7F51 0%, #EDF2EF 100%);
+    border-radius: 40px 0px 0px 0px;
+}

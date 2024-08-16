@@ -1,0 +1,63 @@
+.bar {
+    position: relative;
+    width: 550px;
+    height: 24px;
+    /* Defina a altura da barra */
+}
+
+.bar-background,
+.bar-filled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.bar-background {
+    width: 100%;
+    opacity: 0.2;
+}
+
+.bar-filled {
+    opacity: 1;
+}
+
+.line-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-bar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.bar-value {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.skill-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.8;
+}
+
+.bar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
