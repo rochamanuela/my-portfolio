@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header-child">
-        <p className="name">Manuela Souza</p>
+        {/* <p className="name">Manuela Souza</p> */}
         <img src={MyFace} />
       </div>
       <div className="header-child">

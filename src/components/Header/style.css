@@ -64,17 +64,10 @@
 @media screen and (max-width: 1350px) {
     .header h1.portfolio-title-broken {
         display: block;
-
-        /* testes
-        right: 10%;
-        left: auto;
-        top: 22%;
-        line-height: 225px */
         position: relative;
         right: auto;
         left: auto;
         top: auto;
-
         line-height: 225px;
         padding-left: 50px;
     }
@@ -96,6 +89,10 @@
         width: 100%;
         height: auto;
     }
+
+    .header {
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 1160px) {
@@ -104,15 +101,67 @@
     }
 
     .header h1 {
-        font-family: 'Bebas Neue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 268.333px;
-        line-height: 322px;
-        z-index: 5;
-        left: 32.5%;
-        position: absolute;
-        
         top: 0%;
+    }
+
+    .header .header-child {
+        width: 100%;
+    }
+
+    .header h1.portfolio-title-broken {
+        margin-top: -590px;
+        color: var(--anti-flash-white);
+    }
+
+    .header p.introduction {
+        color: var(--anti-flash-white);
+        padding-right: 0;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    .header h1.portfolio-title-broken {
+        margin-top: -520px;
+        font-size: 210px;
+        line-height: 175px;
+    }
+
+    .header .header-child img {
+        border-radius: 30px;
+    }
+
+    .header p.introduction {
+        margin-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .header h1.portfolio-title-broken {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header h1.portfolio-title-broken {
+        margin-top: -290px;
+        font-size: 160px;
+        line-height: 130px;
+        margin-bottom: 50px;
+    }
+
+    .header p.introduction {
+        color: var(--licorice);
+        margin-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header {
+        padding: 0;
+    }
+
+    .header .header-child img {
+        border-radius: 0;
     }
 }
