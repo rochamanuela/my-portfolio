@@ -142,3 +142,18 @@
         line-height: 110px;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .about-me {
+        padding: 0 6%;
+    }
+
+    .about-me p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .about-me-title {
+        margin-top: 6%;
+    }
+}

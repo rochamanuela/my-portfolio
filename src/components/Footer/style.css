@@ -109,3 +109,9 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .footer {
+        padding: 0 6%;
+    }
+}
