@@ -108,3 +108,22 @@
         margin-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 420px) {
+    /* .header {
+        padding: 0;
+    }
+
+    .header .header-child img {
+        border-radius: 0;
+    }
+
+    .header p.introduction {
+        margin-right: 6%;
+        padding-left: 6%;
+    } */
+
+    .navbar {
+        padding: 22px 6%;
+    }
+}
