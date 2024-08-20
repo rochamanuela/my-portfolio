@@ -10,7 +10,8 @@ export default function Header() {
         <img src={MyFace} />
       </div>
       <div className="header-child">
-        <h1>Portfolio</h1>
+        <h1 className="portfolio-title">Portfolio</h1>
+        <h1 className="portfolio-title-broken">Port<br />folio</h1>
         <p className="introduction">Apaixonada por design e tudo relacionado à arte e criatividade. Sempre buscando
           soluções simples para problemas complexos, afinal “a simplicidade é a sofisticação
           máxima” (Leonardo Da Vinci)</p>

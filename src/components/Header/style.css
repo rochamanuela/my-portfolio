@@ -2,6 +2,8 @@
 .header {
     display: flex;
     flex-direction: row;
+    padding: 0 10%;
+    margin-bottom: 5%;
 }
 
 .header h1 {
@@ -19,7 +21,7 @@
 .header p.introduction {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 30px;
     text-align: justify;
     padding-left: 50px;
@@ -32,7 +34,6 @@
     width: 590px;
     height: 800px;
     border-radius: 40px;
-    margin-left: 200px;
 }
 
 .header .header-child p.name {
@@ -43,4 +44,58 @@
     transform: rotate(-90deg);
     z-index: 1;
     margin-left: -430px;
+}
+
+.header h1.portfolio-title-broken {
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .header p.introduction {
+        width: auto;
+        padding-right: 10%;
+    }
+
+    .header h1 {
+        left: 26.5%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .header h1.portfolio-title-broken {
+        display: block;
+
+        /* testes */
+        right: 10%;
+        left: auto;
+        top: 22%;
+        line-height: 225px
+    }
+
+    .header h1.portfolio-title {
+        display: none;
+    }
+
+    .header p.introduction {
+        top: 67%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header h1 {
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 268.333px;
+        line-height: 322px;
+        z-index: 5;
+        left: 32.5%;
+        position: absolute;
+        
+        top: 0%;
+    }
 }
