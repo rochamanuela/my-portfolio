@@ -30,15 +30,15 @@ export default function Experience() {
             Além disso, participei do desenvolvimento front-end, empregando React para
             construir a aplicação.</p>
         </div>
-        <div className="mockup">
+        <div className="mockup coral">
           <img src={MockupEsy} />
-          <div className="coral-rectangle"></div>
+          {/*<div className="coral-rectangle"></div>*/}
         </div>
       </section>
       <section className="experience-content">
-        <div className="mockup">
+        <div className="mockup dark-purple">
           <img src={MockupYoung} />
-          <div className="dark-purple-rectangle"></div>
+          {/*<div className="dark-purple-rectangle"></div>*/}
         </div>
         <div className="text" style={{ paddingRight: '10%', paddingLeft: '5%' }}>
           <h1>YOUNG BANK - Senai 2023</h1>
@@ -56,9 +56,9 @@ export default function Experience() {
             colaboração com os usuários, recebendo feedback constante para criar a
             melhor experiência possível para eles.</p>
         </div>
-        <div className="mockup">
+        <div className="mockup amaranth">
           <img src={MockupRexroute} />
-          <div className="amaranth-rectangle"></div>
+          {/*<div className="amaranth-rectangle"></div>*/}
         </div>
       </section>
     </div>
