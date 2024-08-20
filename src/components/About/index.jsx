@@ -22,8 +22,10 @@ export default function About() {
           <p>São Paulo, Brasil</p>
           <p>(19) 9 8224-8477</p>
           <p>rochadesouzamanuela@gmail.com</p>
-          <span className="span-1">Abril 28, 2004</span>
-          <span className="span-2">Brasileira</span>
+          {/* <span className="span-1">Abril 28, 2004</span>
+          <span className="span-2">Brasileira</span> */}
+
+          {/* animações https://codesandbox.io/p/sandbox/react-awesome-reveal-typescript-177uom */}
         </div>
       </div>
     </div>

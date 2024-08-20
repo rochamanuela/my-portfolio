@@ -54,10 +54,13 @@
     z-index: 1;
     background-color: #E5C8CB;
     border-radius: 40px;
+    margin-top: 55px;
 }
 
 .about-me .legs-image {
-    z-index: 1;
+    z-index: -1;
+    position: relative;
+    margin-top: -55px;
 }
 
 .about-me span {
@@ -79,4 +82,63 @@
     top: 1664px;
     /* left: 1503px; */
     right: 7%;
+}
+
+@media screen and (max-width: 1500px) {
+    .about-me .contact {
+        scale: 0.9;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .about-me .contact {
+        scale: 0.85;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .about-me .contact {
+        scale: 0.8;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-me p {
+        width: 100%;
+    }
+
+    .about-me .linkedin {
+        width: calc(100% - 48px)
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .about-me .contact {
+        scale: .7;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .about-me .contact {
+        scale: .6;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .about-me .contact {
+        scale: .5;
+    }
+
+    .about-me .linkedin {
+        font-size: 12px
+    }
+
+    .about-me-title {
+        font-size: 94px;
+        line-height: 110px;
+    }
 }
