@@ -58,7 +58,6 @@
     position: relative;
 }
 
-/* Sobreposição do gradiente */
 .experience section.experience-content .mockup::before {
     content: "";
     position: absolute;
@@ -66,13 +65,17 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 40px;
+    border-radius: 26px;
     z-index: 0;
     pointer-events: none;
 }
 
 .experience section.experience-content .mockup.amaranth::before {
     background: linear-gradient(270deg, #CE4257 0%, #EDF2EF 100%);
+    width: calc(40%);
+    height: 94%;
+    margin-top: -6%;
+    margin-left: 52%;
 }
 
 .experience section.experience-content .mockup.dark-purple::before {
@@ -85,7 +88,7 @@
 
 .experience section.experience-content .mockup.coral::before {
     background: linear-gradient(180deg, #FF7F51 0%, #EDF2EF 100%);
-    border-radius: 40px 0px 0px 0px;
+    border-radius: 26px 0px 0px 0px;
     margin-left: 100px;
     width: calc(100% - 100px);
     margin-bottom: 70px;
@@ -93,11 +96,15 @@
     height: calc(100% - 140px);
 }
 
+.experience section.experience-content .amaranth img {
+    margin-bottom: 100px;
+}
+
 .experience section.experience-content .text p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     text-align: justify;
     color: var(--licorice);
@@ -144,4 +151,108 @@
     top: 50vh;
     background: linear-gradient(180deg, #FF7F51 0%, #EDF2EF 100%);
     border-radius: 40px 0px 0px 0px;
+}
+
+p.lide-experience-1,
+p.lide-experience-2 {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+p.lide-experience-1 {
+    padding-left: 20%;
+}
+
+p.lide-experience-2 {
+    padding-right: 20%;
+}
+
+.experience-content#last-content {
+    margin-top: 100px;
+}
+
+.experience-content#middle-content .text {
+    padding-right: 10%;
+    padding-left: 5%
+}
+.experience-content#first-content .text,
+.experience-content#last-content .text {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+@media screen and (max-width: 1120px) {
+    .experience .experience-section-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .experience .experience-section-title .child {
+        width: 100%;
+    }
+
+    .experience .experience-section-title h1 {
+        padding-left: 10%;
+    }
+
+    p.lide-experience-1,
+    p.lide-experience-2 {
+        padding-left: 10%;
+    }
+
+    p.lide-experience-2 {
+        padding-right: 10%;
+    }
+
+    .experience .experience-section-title .child hr {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    p.lide-experience-2 {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .experience section.experience-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        flex-direction: column;
+    }
+
+    .experience section.experience-content .text {
+        padding: 0;
+    }
+
+    .experience section.experience-content .text,
+    .experience section.experience-content .mockup {
+        width: 80%;
+    }
+
+    .experience-content#first-content .text,
+    .experience-content#middle-content .text,
+    .experience-content#last-content .text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .experience-content#last-content {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1380px) {
+    .experience-content#last-content {
+        margin-top: 0;
+    }
+
+    .experience section.experience-content {
+        margin-bottom: 100px;
+    }
 }
