@@ -17,10 +17,10 @@ export default function Footer() {
         <div className="footer-content-child">
           <p>Contate-me</p>
           <div className="btn-container">
-            <a href="">
+            <a href="https://wa.me/qr/7SITDGRVYZAZB1">
               <button className="primary-btn">Ir para o WhatsApp</button>
             </a>
-            <a href="">
+            <a href="mailto:rochadesouzamanuela@gmail.com?subject=Conheci seu Portfolio">
               <button className="secondary-btn">Enviar e-mail</button>
             </a>
           </div>
@@ -30,15 +30,15 @@ export default function Footer() {
       <div className="footer-content-links">
         <p>© Todos os direitos reservados por Manuela Souza</p>
         <div className="social-media-links">
-          <a href="">
+          <a href="https://www.linkedin.com/in/rocha-manuela/">
             <FaLinkedin size={24} />
             <p>manuela-rocha</p>
           </a>
-          <a href="">
+          <a href="https://instagram.com/manuela_rocha__">
             <FaInstagram size={24} />
             <p>manuela_rocha__</p>
           </a>
-          <a href="">
+          <a href="https://github.com/rochamanuela/">
             <FaGithub size={24} />
             <p>rochamanuela</p>
           </a>

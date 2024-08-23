@@ -111,8 +111,14 @@
         width: 100%;
     }
 
-    .about-me .linkedin {
+    /* .about-me .linkedin {
         width: calc(100% - 48px)
+    } */
+
+    .about-me .linkedin {
+        width: calc(100% - 28px);
+        margin-top: 34px;
+        padding: 14px 0 14px 28px;
     }
 }
 
@@ -134,7 +140,7 @@
     }
 
     .about-me .linkedin {
-        font-size: 12px
+        font-size: 14px
     }
 
     .about-me-title {

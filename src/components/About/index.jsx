@@ -12,8 +12,8 @@ export default function About() {
           nascida em Campinas, e, atualmente, universitária. Acredito na importância de criar
           interfaces intuitivas e visualmente atraentes, sempre buscando unir funcionalidade e
           estética em meus projetos.</p>
-        <a href="">
-          <div className="linkedin">linkedin.com/manuela-rocha</div>
+        <a href="https://www.linkedin.com/in/rocha-manuela/">
+          <div className="linkedin">linkedin.com/rocha-manuela</div>
         </a>
       </div>
       <div className="about-me-child contact">
