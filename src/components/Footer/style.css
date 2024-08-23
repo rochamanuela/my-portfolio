@@ -34,6 +34,11 @@
     gap: 8px;
     text-decoration: none;
     color: #fff;
+    transition: .3s;
+}
+
+.footer .footer-content-links .social-media-links a:hover {
+    color: #FF6980;
 }
 
 .footer .footer-content-links .social-media-links {
@@ -68,10 +73,25 @@
 .btn-container a button.primary-btn {
     color: var(--licorice);
     background-color: #fff;
+    transition: .3s;
+}
+
+.btn-container a button.primary-btn {
+    color: var(--licorice);
+    background-color: #fff;
+    transition: .3s;
+}
+
+.btn-container a button.primary-btn:hover,
+.btn-container a button.secondary-btn:hover {
+    background-color: var(--amaranth);
+    border-color: var(--amaranth);
+    color: #fff;
 }
 
 .btn-container a button.secondary-btn {
     background-color: transparent;
+    color: #fff;
 }
 
 /* add responsiviness */
