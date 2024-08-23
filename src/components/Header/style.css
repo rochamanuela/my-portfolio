@@ -111,6 +111,7 @@
     .header h1.portfolio-title-broken {
         margin-top: -590px;
         color: var(--anti-flash-white);
+        opacity: .55;
     }
 
     .header p.introduction {
