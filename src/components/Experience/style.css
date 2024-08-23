@@ -76,6 +76,8 @@
     height: 94%;
     margin-top: -6%;
     margin-left: 52%;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
 }
 
 .experience section.experience-content .mockup.dark-purple::before {
@@ -84,6 +86,8 @@
     width: calc(76%);
     height: calc(100% - 140px);
     margin-top: 140px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
 }
 
 .experience section.experience-content .mockup.coral::before {
@@ -94,6 +98,23 @@
     margin-bottom: 70px;
     margin-top: 70px;
     height: calc(100% - 140px);
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.experience section.experience-content .mockup.coral:hover::before {
+    background: linear-gradient(180deg, #ff581c 0%, #EDF2EF 100%);
+    opacity: 0.8;
+}
+
+.experience section.experience-content .mockup.dark-purple:hover::before {
+    background: linear-gradient(270deg, #EDF2EF 0%, #571349 100%);
+    opacity: 0.8;
+}
+
+.experience section.experience-content .mockup.amaranth:hover::before {
+    background: linear-gradient(270deg, #b8273d 0%, #EDF2EF 100%);
+    opacity: 0.8;
 }
 
 .experience section.experience-content .amaranth img {
@@ -264,9 +285,7 @@ p.lide-experience-2 {
         margin-left: 60%;
     }
 
-    /* testes */
     .experience section.experience-content#middle-content {
-        /* background-color: green; */
         flex-direction: column-reverse;
     }
 

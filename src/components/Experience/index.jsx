@@ -7,7 +7,7 @@ import MockupRexroute from '../../assets/images/mockups/mockup-rexroute-project.
 
 export default function Experience() {
   return (
-    <div className="experience">
+    <div className="experience" id="experience">
       <div className="experience-section-title">
         <div className="child">
           <h1>Experiência</h1>
@@ -32,7 +32,6 @@ export default function Experience() {
         </div>
         <div className="mockup coral">
           <img src={MockupEsy} />
-          {/*<div className="coral-rectangle"></div>*/}
         </div>
       </section>
       <section className="experience-content" id="middle-content">

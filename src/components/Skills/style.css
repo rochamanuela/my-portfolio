@@ -57,6 +57,22 @@
     .skills {
         flex-direction: column;
     }
+
+    .bar {
+        height: 18px;
+    }
+
+    .title-bar {
+        font-size: 20px;
+    }
+
+    .title-bar {
+        gap: 6px;
+    }
+
+    .skill-description {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 1470px) {
@@ -72,6 +88,11 @@
     .skills .skills-section-title {
         width: 100%;
     }
+
+    .skills-child, .skills-content {
+        gap: 50px;
+    }
+    
 }
 
 @media screen and (max-width: 540px) {

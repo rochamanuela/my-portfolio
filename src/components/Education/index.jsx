@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Education() {
   return (
-    <div className="education">
+    <div className="education" id="education">
       <div className="education-child">
         <div className="education-content filled">
           <h1>Educação</h1>

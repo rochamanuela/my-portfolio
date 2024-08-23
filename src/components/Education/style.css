@@ -136,13 +136,18 @@ p.location {
     }
 }
 
-@media screen and (max-width: 1237px) {
+@media screen and (max-width: 1320px) {
     .education {
         flex-direction: column;
+        margin-top: 140px;
     }
 
     .education-content-child .item {
         gap: 15px;
+    }
+
+    .education .last-child {
+        margin-top: 36px;
     }
 }
 
@@ -185,5 +190,11 @@ p.location {
     
     .education-child .outline {
         border-radius: 0px 20px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    .education-content {
+        padding: 65px 55px;
     }
 }
