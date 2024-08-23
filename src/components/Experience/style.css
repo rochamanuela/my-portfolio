@@ -175,6 +175,7 @@ p.lide-experience-2 {
     padding-right: 10%;
     padding-left: 5%
 }
+
 .experience-content#first-content .text,
 .experience-content#last-content .text {
     padding-left: 10%;
@@ -210,13 +211,11 @@ p.lide-experience-2 {
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
     p.lide-experience-2 {
         margin-bottom: 50px;
     }
-}
 
-@media screen and (max-width: 1024px) {
     .experience section.experience-content {
         display: flex;
         align-items: center;
@@ -245,6 +244,54 @@ p.lide-experience-2 {
         margin-top: 100px;
     }
 
+    /* agora estou mexendo nos mockups */
+    .experience section.experience-content .mockup.coral::before {
+        border-radius: 26px 26px 0px 0px;
+        margin-left: 0;
+        width: 100%;
+        height: calc(100% - 205px);
+    }
+
+    .experience section.experience-content#first-content .mockup {
+        margin-top: 40px;
+    }
+
+    .experience section.experience-content#last-content .mockup {
+        margin-top: 80px;
+    }
+
+    .experience section.experience-content .mockup.amaranth::before {
+        margin-left: 60%;
+    }
+
+    /* testes */
+    .experience section.experience-content#middle-content {
+        /* background-color: green; */
+        flex-direction: column-reverse;
+    }
+
+    .experience section.experience-content#middle-content .mockup {
+        margin-top: 40px;
+    }
+
+    .experience section.experience-content .mockup.dark-purple::before {
+        background: linear-gradient(270deg, #EDF2EF 20%, #402039 100%);
+        margin-top: 80px;
+        height: calc(100% - 80px);
+        margin-left: 0;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .experience section.experience-content .mockup.coral::before {
+        height: 70%;
+    }
+
+    .experience .experience-section-title h1 {
+        font-size: 70px;
+    }
 }
 
 @media screen and (max-width: 1380px) {
@@ -254,5 +301,33 @@ p.lide-experience-2 {
 
     .experience section.experience-content {
         margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    p.lide-experience-1 br {
+        display: none;
+    }
+
+    p.lide-experience-1 {
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    p.lide-experience-1,
+    p.lide-experience-2 {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .experience .experience-section-title h1 {
+        padding-left: 6%;
+    }
+
+    .experience section.experience-content .text,
+    .experience section.experience-content .mockup {
+        width: 88%;
     }
 }

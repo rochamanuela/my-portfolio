@@ -35,13 +35,11 @@ export default function Experience() {
           {/*<div className="coral-rectangle"></div>*/}
         </div>
       </section>
-      <section className="experience-content">
+      <section className="experience-content" id="middle-content">
         <div className="mockup dark-purple">
           <img src={MockupYoung} />
-          {/*<div className="dark-purple-rectangle"></div>*/}
         </div>
         <div className="text" id="last-content">
-        {/* <div className="text" style={{ paddingRight: '10%', paddingLeft: '5%' }}> */}
           <h1>YOUNG BANK - Senai 2023</h1>
           <p>Como parte do projeto integrador do Senai, projetei a interface de um banco
             digital com um estilo moderno e voltado para o público jovem. O desenvolvimento
@@ -50,7 +48,6 @@ export default function Experience() {
         </div>
       </section>
       <section className="experience-content" id="last-content">
-        {/* <div className="text" style={{ paddingLeft: '10%', paddingRight: '5%' }}> */}
         <div className="text">
           <h1>REX ROUTE - Rexroth 2023</h1>
           <p>Desenvolvi a interface de uma aplicação de compartilhamento de rota para a
@@ -60,7 +57,6 @@ export default function Experience() {
         </div>
         <div className="mockup amaranth">
           <img src={MockupRexroute} />
-          {/*<div className="amaranth-rectangle"></div>*/}
         </div>
       </section>
     </div>
