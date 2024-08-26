@@ -116,6 +116,12 @@
 
 }
 
+@media screen and (max-width: 420px) {
+    .skills {
+        padding: 80px 6%;
+    }
+}
+
 @media screen and (max-width: 390px) {
     .skills .skills-section-title h1 {
         font-size: 70px;

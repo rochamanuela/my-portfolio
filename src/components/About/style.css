@@ -24,16 +24,22 @@
     font-size: 14px;
     line-height: 28px;
     text-align: justify;
-    width: 80%;
+    width: 85%;
 }
 
 .about-me .linkedin {
     display: flex;
-    width: calc(80% - 48px);
+    width: calc(85% - 48px);
     background-color: var(--licorice);
     margin-top: 50px;
     border-radius: 33px;
     padding: 20px 0 20px 48px;
+    transition: .5s;
+}
+
+.about-me .linkedin:hover {
+    background-color: var(--dark-purple);
+
 }
 
 .about-me a {
@@ -74,13 +80,11 @@
 
 .span-1 {
     top: 1379px;
-    /* left: 1048px; */
     right: 36%;
 }
 
 .span-2 {
     top: 1664px;
-    /* left: 1503px; */
     right: 7%;
 }
 
@@ -111,14 +115,20 @@
         width: 100%;
     }
 
-    /* .about-me .linkedin {
-        width: calc(100% - 48px)
-    } */
-
     .about-me .linkedin {
         width: calc(100% - 28px);
         margin-top: 34px;
         padding: 14px 0 14px 28px;
+    }
+
+    h1.about-me-title br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    h1.about-me-title br {
+        display: block;
     }
 }
 
@@ -161,5 +171,11 @@
 
     .about-me-title {
         margin-top: 6%;
+    }
+}
+
+@media screen and (min-width: 421px) {
+    .about-me {
+        margin-top: 100px;
     }
 }
